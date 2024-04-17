@@ -1,0 +1,54 @@
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+
+  body {
+    background-image:url("../img/watching.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+
+  /* The ../ symbols mean that you will go up one level in the file structure. IMPORTANT INFO */
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  /*h1,h2,h3 {
+    font-family: sans-serif;
+  }*/
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+    text-align: center;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  /* #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #888;
+    background-color: #d25b63;
+   
+  
+  } */
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  /* .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #b99cbe;
+   
+  } */
+  
+  #links {
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .minor-section {
+    /* border: solid 1px #888; */
+    background-color: #ddc4cb;
+    border-radius: 25px;
+    border: dashed 5px;
+  }
