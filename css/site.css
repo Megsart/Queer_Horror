@@ -1,7 +1,7 @@
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 
   body {
-    background-image:url("../img/watching.png");
+    background-image:url("../img/background1.png");
     background-repeat: no-repeat;
     background-size:cover;
   }
